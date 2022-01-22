@@ -2,7 +2,7 @@
 
 Nesse módulo foi abordado assuntos necessários para iniciar minha carreira no mundo do desenvolvimento Web, proporcionando background para os módulos de Front-end e Back-end.
 
-##### O conteúdo foi dividido em quatro partes:
+#### O conteúdo foi dividido em quatro partes:
 
 - _Sistema operacional UNIX - Executando comandos no terminal_
 - _Git - Guardando arquivos de forma segura_
