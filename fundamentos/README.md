@@ -2,12 +2,12 @@
 
 Nesse módulo foi abordado assuntos necessários para iniciar minha carreira no mundo do desenvolvimento Web, proporcionando background para os módulos de Front-end e Back-end.
 
-O conteúdo foi dividido em quatro partes:
+##### O conteúdo foi dividido em quatro partes:
 
-Sistema operacional chamado UNIX - Executando comandos no terminal.
-Git - Para guardá-los de forma segura
-Internet - Como ela funciona.
-O Desenvolvimento Web - Estruturar documentos HTML , estilizá-los com o CSS e criar comportamentos customizados com o JavaScript !
+- _Sistema operacional UNIX - Executando comandos no terminal_
+- _Git - Guardando arquivos de forma segura_
+- _Internet - Entendendo como ela funciona_
+- _O Desenvolvimento Web - HTML, CSS e criar comportamentos customizados com o JavaScript_
 
 Após esse primeiro ciclo de aprendizado, aprendi sobre como criar sites responsivos e com CSS elegante e eficiente, assim como utilizar o JavaScript em sua plenitude, utilizando recursos avançados como HOF , Código assíncrono , Testes unitários entre outras coisas incríveis!
 
