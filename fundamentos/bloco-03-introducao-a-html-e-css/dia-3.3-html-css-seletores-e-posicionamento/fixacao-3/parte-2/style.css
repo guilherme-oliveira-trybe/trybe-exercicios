@@ -1,0 +1,32 @@
+div:hover {
+    border: 5px solid red;
+}
+
+div:nth-child(3) {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div:nth-child(4) {
+    color: green;
+    background-color: brown;
+}
+
+div:nth-child(5) {
+    color: hotpink;
+    font-size: 25px;
+}
+
+div:nth-child(6) {
+    color: red;
+    font-size: 12px;
+}
+
+div:nth-child(7) {
+    color: brown;
+    text-align: center;
+}
+
+div:nth-child(odd) {
+    font-style: italic;
+}
