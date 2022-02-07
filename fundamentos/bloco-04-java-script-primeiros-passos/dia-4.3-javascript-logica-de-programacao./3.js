@@ -1,20 +1,22 @@
 let array = ['java', 'javascript', 'python', 'html', 'css'];
-let maior = '';
-let menor = '';
+let maior = array[0];
+let menor = array[0];
 
 // console.log(array[1].length);
 
 for (let index = 0; index < array.length; index += 1) {
-    if (maior.length < array[index].length) {
+    if (array[index].length > maior.length) {
         maior = array[index];
     }
 }
 
-for (let index2 = array.length -1; index2 >=0; index2 -= 1) {
-    if (menor.length < array[index2].length) {
-        menor = array[(index2 +1)];
-    }
+for (let index = 0; index < array.length; index += 1){
+    if (array[index].length < menor.length ){
+        menor = array[index];        
+    }    
 }
+
+
 console.log(maior);
 console.log(menor);
 
