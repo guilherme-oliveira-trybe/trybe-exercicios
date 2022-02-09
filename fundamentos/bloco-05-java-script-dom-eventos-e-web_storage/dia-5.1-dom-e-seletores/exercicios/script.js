@@ -1,8 +1,13 @@
 let header = document.querySelector('header');
 header.style.background = 'green';
 
-var emergencyClass = document.querySelector('.emergency-tasks');
+let emergencyClass = document.querySelector('.emergency-tasks');
 emergencyClass.style.background = 'lightcoral';
 
-var noEmergencyClass = document.querySelectorAll('.no-emergency-tasks')[0];
+let noEmergencyClass = document.querySelectorAll('.no-emergency-tasks')[0];
 noEmergencyClass.style.background = 'orange';
+
+let subTitles = document.querySelectorAll('.emergency-tasks div h3');
+for (let index in subTitles) {
+    subTitles[index].style.background = 'purple';
+}
