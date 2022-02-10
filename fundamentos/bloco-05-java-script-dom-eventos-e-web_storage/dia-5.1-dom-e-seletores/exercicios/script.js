@@ -5,9 +5,14 @@ let emergencyClass = document.querySelector('.emergency-tasks');
 emergencyClass.style.background = 'lightcoral';
 
 let noEmergencyClass = document.querySelectorAll('.no-emergency-tasks')[0];
-noEmergencyClass.style.background = 'orange';
+noEmergencyClass.style.background = 'yellow';
 
-let subTitles = document.querySelectorAll('.emergency-tasks div h3');
-for (let index in subTitles) {
+let subTitles = document.getElementsByClassName('subtitle');
+for (let index = 0; index < subTitles.length; index += 1) {
     subTitles[index].style.background = 'purple';
+}
+
+let subTitles2 = document.getElementsByClassName('subtitle2');
+for (let index = 0; index < subTitles2.length; index += 1) {
+    subTitles2[index].style.background = 'black';
 }
