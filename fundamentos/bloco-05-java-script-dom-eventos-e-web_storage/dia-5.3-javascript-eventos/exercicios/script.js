@@ -31,9 +31,19 @@ function createListDezDays() {
 
 createListDezDays();
 
-function addClass(array, classes) {
-  array.className = classes;
+const lista = document.getElementsByClassName('day');
+
+function addClassLi(array, classes) {
+  for (let index = 0; index < array.length; index += 1) {
+    for (let index2 = 0; index2 < lista.length; index2 += 1)
+    if (array[index] === lista[index2].innerHTML) {
+      lista[index2].classList.add (classes);
+    }
+  }
 };
 
-addClass([24, 25, 31]);
+addClassLi(['24', '25', '31'], 'holiday');
+
+addClassLi(['4', '11', '18', '25'], 'friday');
+
 
