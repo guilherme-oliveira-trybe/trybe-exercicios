@@ -76,5 +76,64 @@ function changeBackgroundColor () {
 
 button.addEventListener('click', changeBackgroundColor);
 
+function createButton2 () {
+  const buttonsContainer2 = document.querySelector('.buttons-container');
+  const button2 = document.createElement('button');
+  button2.innerHTML = 'Sexta-feira';
+  button2.id = 'btn-friday';
+  buttonsContainer2.appendChild(button2);
+}
 
+createButton2();
 
+const button2 = document.querySelector('#btn-friday');
+let isFriday = true;
+let fridayDays = ['4', '11', '18', '25'];
+
+function changeTextFriday () {
+  const friday = document.querySelectorAll('.friday');
+
+  if (isFriday) {
+    for (let index = 0; index < friday.length; index += 1) {
+      friday[index].innerHTML = 'Sextou!!!';
+    }  
+  }else {
+    for (let index = 0; index < friday.length; index += 1) {
+      friday[index].innerHTML = fridayDays[index];
+    }
+  }
+  isFriday = !isFriday;
+}
+button2.addEventListener('click', changeTextFriday);
+
+let daysLi = document.getElementById('days');
+
+function zoom(event) {
+  event.target.style.fontSize = '40px';
+}
+
+function notZoom(event) {
+  event.target.style.fontSize = '20px';
+}
+
+daysLi.addEventListener('mouseover', zoom);
+daysLi.addEventListener('mouseout', notZoom);
+
+const myTasks = document.querySelector('.my-tasks');
+
+function createTask (string) {
+  const task = document.createElement('span');
+  task.innerHTML = string;
+  myTasks.appendChild(task);
+}
+
+createTask('Arrumar Casa');
+
+function createLegend(cor) {
+  const legend = document.createElement('div');
+  legend.style.background = cor;
+  legend.className = 'task';
+  myTasks.appendChild(legend);
+}
+
+createLegend('red');
