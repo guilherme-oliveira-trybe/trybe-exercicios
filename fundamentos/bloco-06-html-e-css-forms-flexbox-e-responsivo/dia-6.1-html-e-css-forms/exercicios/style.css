@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.padrão {
+  background-color: rgb(246, 247, 248);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  width: 80%;
+  margin: 40px auto;
+  padding: 50px;
+}
+
+header {
+  text-align: center;
+}
+
+.box {
+  width: 700px;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  margin-top: 10px;
+}
+
+#buttons {
+  text-align: center;
+  padding: 10px;
+}
+
+#submit-button {
+  margin-right: 20px;
+}
