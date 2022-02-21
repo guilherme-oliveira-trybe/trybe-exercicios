@@ -4,7 +4,7 @@ function preventDefault(event) {
     event.preventDefault();
 }
 
-buttonSubmit.addEventListener('click', preventDefault);
+// buttonSubmit.addEventListener('click', preventDefault);
 
 const boxButtons = document.getElementById('buttons');
 
@@ -17,3 +17,5 @@ function createButton() {
 }
 
 createButton();
+
+const information = document.querySelectorAll('#box-personal-information');

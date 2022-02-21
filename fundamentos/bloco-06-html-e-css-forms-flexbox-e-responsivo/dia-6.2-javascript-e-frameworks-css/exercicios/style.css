@@ -1,0 +1,9 @@
+#answer {
+    resize: none;
+    width: 100%;
+}
+
+.container {
+    margin-bottom: 10px;
+    background-color: rgb(246, 247, 248)
+}
