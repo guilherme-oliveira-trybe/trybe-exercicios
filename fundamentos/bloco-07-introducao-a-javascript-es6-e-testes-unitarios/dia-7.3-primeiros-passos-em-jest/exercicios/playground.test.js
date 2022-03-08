@@ -23,3 +23,8 @@ it('replace vogals in encode', () => {
 it('replace number in decode', () => {
     expect(decode('7896')).toBe('7896');
 });
+
+it('count characteres', () => {
+    const text = 'Be Trybe';
+    expect(encode(text)).toHaveLength(text.length);
+});
