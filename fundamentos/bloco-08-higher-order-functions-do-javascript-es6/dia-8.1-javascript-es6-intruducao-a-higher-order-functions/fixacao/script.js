@@ -2,7 +2,7 @@ const acordando = () => `Acordando!!`;
 const cafeDaManha = () => `Bora tomar café!!`;
 const dormir = () => `Partiu dormir!!`
 
-const doingThings = (func) => func(console.log(func()));
+const doingThings = (callback) => func(console.log(callback()));
 
 doingThings(acordando);
 doingThings(cafeDaManha);
