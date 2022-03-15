@@ -1,4 +1,4 @@
-const valorSorteado = () => Math.floor((Math.random() * 5) + 1);
+// const valorSorteado = () => Math.floor((Math.random() * 5) + 1);
 
 const checkNumbers = (number1, number2) => {
   if (number1 === number2) {
